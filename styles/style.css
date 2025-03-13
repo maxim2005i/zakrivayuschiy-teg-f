@@ -224,6 +224,7 @@ dialog::backdrop {
   border: 2px solid black;
   overflow: hidden;
   position: relative;
+  color:white;
 }
 .button:focus {
   outline: none;
