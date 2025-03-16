@@ -24,7 +24,6 @@ body {
 
 .header {
   inline-size: var(--clamp-inline-size);
-  block-size: clamp(20.4375rem, 19.5352rem + 3.8498vw, 23rem);
   font-family: var(--accent-font);
   background-color: #fff;
   border: 2px solid black;
@@ -42,7 +41,7 @@ body {
   text-align: center;
   margin-block-start: 1.25rem;
   text-transform: uppercase;
-  padding-block-end: clamp(7.5rem, 6.8398rem + 2.8169vw, 9.375rem);
+  padding-block-end: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
 }
 
 .content {
@@ -63,7 +62,7 @@ body {
   background-color: white;
   padding-inline-start: 9px;
   padding-inline-end: 9px;
-  padding-block-start: 2px;
+  padding-block-start: 1px;
   padding-block-end: 4px;
 }
 .card__image-block {
@@ -112,7 +111,7 @@ body {
   line-height: 1.17;
   margin-inline-start: 25px;
   margin-inline-end: 25px;
-  padding-block-start: 25px;
+  padding-block-start: 29px;
   padding-block-end: 25px;
 }
 
@@ -277,7 +276,7 @@ dialog::backdrop {
     margin-block-start: 0;
   }
   .content {
-    gap: 62px;
+    gap: 58px;
     margin-block-start:3px;
   }
 }
